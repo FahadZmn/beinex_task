@@ -107,26 +107,26 @@ public class AssesmentApplication {
 							statement.setTimestamp(14, new Timestamp(shipDate.getTime()));
 						case 14:
 							String shipMode = nextCell.getStringCellValue();
-							statement.setString(16, shipMode);
+							statement.setString(15, shipMode);
 
 						case 15:
 							String province = nextCell.getStringCellValue();
-							statement.setString(17, province);
+							statement.setString(16, province);
 						case 16:
 							String subCategory = nextCell.getStringCellValue();
-							statement.setString(18, subCategory);
+							statement.setString(17, subCategory);
 						case 17:
 							float discount = (float) nextCell.getNumericCellValue();
-							statement.setFloat(19, discount);
+							statement.setFloat(18, discount);
 						case 18:
 							float profit = (float) nextCell.getNumericCellValue();
-							statement.setFloat(20, profit);
+							statement.setFloat(19, profit);
 						case 19:
 							float quantity = (float) nextCell.getNumericCellValue();
-							statement.setFloat(21, quantity);
+							statement.setFloat(20, quantity);
 						case 20:
 							float sales = (float) nextCell.getNumericCellValue();
-							statement.setFloat(22, sales);
+							statement.setFloat(21, sales);
 
 
 
